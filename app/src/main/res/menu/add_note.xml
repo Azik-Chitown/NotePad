@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
         android:id="@+id/addNoteMenuItem"
         android:actionLayout="@layout/activity_main"
-        android:icon="@android:drawable/btn_plus"
-        android:title="@string/add_note" />
+        android:enabled="true"
+        android:icon="@mipmap/add_icon_round"
+        android:title="@string/add_note"
+        android:visibility="visible"
+        android:visible="true"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/about_item"
+        android:icon="@mipmap/help_icon"
+        android:title="about"
+        app:showAsAction="always" />
 </menu>
