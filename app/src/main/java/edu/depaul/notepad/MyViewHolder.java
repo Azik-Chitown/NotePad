@@ -1,4 +1,18 @@
 package edu.depaul.notepad;
+import android.view.View;
 
-public class MyViewHolder {
+import android.widget.TextView;
+import androidx.recyclerview.widget.RecyclerView;
+public class MyViewHolder extends RecyclerView.ViewHolder {
+
+    TextView title;
+    TextView notetext;
+    TextView dateTime;
+
+    MyViewHolder(View v){
+        super(v);
+
+
+    }
+
 }
