@@ -2,7 +2,6 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:actionLayout="@layout/new_note"
         android:icon="@mipmap/save_icon"
         android:title="@string/save_item" />
 </menu>
