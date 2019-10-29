@@ -1,6 +1,10 @@
 <resources>
-    <string name="app_name">Note Pad</string>
+    <string name="app_name">Multi Notes</string>
     <string name="add_note">Add Note</string>
     <string name="about_item">About</string>
     <string name="save_item">Save</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
 </resources>

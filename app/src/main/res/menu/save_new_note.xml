@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
+
+        android:id="@+id/save_new_note"
+        android:actionLayout="@layout/new_note_activity"
         android:icon="@mipmap/save_icon"
-        android:title="@string/save_item" />
+        android:title="@string/save_item"
+        app:showAsAction="always" />
 </menu>

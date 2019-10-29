@@ -6,13 +6,13 @@ import androidx.recyclerview.widget.RecyclerView;
 public class MyViewHolder extends RecyclerView.ViewHolder {
 
     TextView title;
-    TextView notetext;
+    TextView noteText;
     TextView dateTime;
 
     MyViewHolder(View v){
         super(v);
         title= v.findViewById(R.id.note_title);
-        notetext=v.findViewById(R.id.note_body);
+        noteText=v.findViewById(R.id.note_body);
         dateTime=v.findViewById(R.id.note_date);
 
 

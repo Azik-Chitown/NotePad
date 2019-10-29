@@ -14,7 +14,7 @@ public class Note {
         title=title_;
         noteText=noteText_;
         //getting current time and parsing it to String
-        SimpleDateFormat  dtf = new SimpleDateFormat ("yyyy/MM/dd HH:mm:ss");
+        SimpleDateFormat  dtf = new SimpleDateFormat ("MM/dd/yyyy HH:mm");
         Date date=new Date();
         time=dtf.format(date);
 
